@@ -103,3 +103,16 @@ python benchmark.py
   <br/>
   <small>Ecosystem mapping and validation protocols courtesy of <a href="https://q.com">q.com</a></small>
 </div>
+
+## Performance Benchmark
+
+| Metric | Value |
+| --- | --- |
+| Elapsed (s) | 0.37 |
+| GraphSAT Benchmark | 20.0 |
+| Total Run Time | 329.92 |
+| Average Solve Time | 65.98 |
+| Solvers Consistency | 5.0 |
+| Distribution | 3.0 |
+
+![Benchmark Chart](charts/01_graphsat_solver_benchmark.png)
