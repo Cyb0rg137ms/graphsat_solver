@@ -1,6 +1,6 @@
 # GraphSAT — verified hybrid SAT solving in Python
 
-> CI workflow lives in `ci/github-actions-ci.yml`; move it to `.github/workflows/ci.yml` to enable GitHub Actions (the push token lacked `workflow` scope).
+> CI: GitHub Actions workflow at `.github/workflows/ci.yml`.
 
 GraphSAT is a research-oriented SAT solver. It combines a complete **CDCL** core with an experimental **continuous relaxation** of the clause-violation energy. **Every answer is verified:**
 
