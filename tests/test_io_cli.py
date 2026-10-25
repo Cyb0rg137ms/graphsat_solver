@@ -69,3 +69,14 @@ def test_cli_gen_random(capsys) -> None:
     main(["gen", "random", "--n", "10", "--alpha", "4", "--seed", "3"])
     cnf = CNF.from_dimacs(capsys.readouterr().out)
     assert cnf.num_vars == 10 and cnf.num_clauses == 40
+
+
+def test_bench_cli_json_and_plot(tmp_path, capsys) -> None:  # type: ignore[no-untyped-def]
+    pytest.importorskip("matplotlib")
+    js, png = tmp_path / "phase.json", tmp_path / "phase.png"
+    rc = main(["bench", "--n", "10", "12", "--trials", "2", "--steps", "3", "--json", str(js), "--plot", str(png)])
+    assert rc == 0
+    rows = json.loads(js.read_text())
+    assert {r["n_vars"] for r in rows} == {10, 12}
+    assert all(0.0 <= r["sat_probability"] <= 1.0 for r in rows)
+    assert png.stat().st_size > 1000

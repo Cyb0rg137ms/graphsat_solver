@@ -62,10 +62,22 @@ def _cmd_gen(args: argparse.Namespace) -> int:
 def _cmd_bench(args: argparse.Namespace) -> int:
     from graphsat.benchmarks.phase_transition import print_phase_table, run_phase_transition
 
-    rows = run_phase_transition(
-        n_vars=args.n, alpha_range=(args.alpha_min, args.alpha_max), alpha_steps=args.steps, n_trials=args.trials
-    )
-    print_phase_table(rows)
+    rows = []
+    for n in args.n:
+        part = run_phase_transition(
+            n_vars=n, alpha_range=(args.alpha_min, args.alpha_max), alpha_steps=args.steps, n_trials=args.trials
+        )
+        print_phase_table(part)
+        rows.extend(part)
+    if args.json:
+        import json
+        from pathlib import Path
+
+        Path(args.json).write_text(json.dumps(rows, indent=2))
+    if args.plot:
+        from graphsat.benchmarks.plots import plot_phase
+
+        plot_phase(rows, args.plot)
     return 0
 
 
@@ -95,11 +107,13 @@ def build_parser() -> argparse.ArgumentParser:
     g.set_defaults(func=_cmd_gen)
 
     b = sub.add_parser("bench", help="random 3-SAT phase-transition sweep")
-    b.add_argument("--n", type=int, default=30)
+    b.add_argument("--n", type=int, nargs="+", default=[30], help="one or more variable counts")
     b.add_argument("--alpha-min", type=float, default=3.0)
     b.add_argument("--alpha-max", type=float, default=6.0)
     b.add_argument("--steps", type=int, default=7)
     b.add_argument("--trials", type=int, default=20)
+    b.add_argument("--json", help="write all rows as JSON")
+    b.add_argument("--plot", help="write the phase-transition figure (PNG); needs matplotlib")
     b.set_defaults(func=_cmd_bench)
     return p
 

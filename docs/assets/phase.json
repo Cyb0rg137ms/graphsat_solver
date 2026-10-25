@@ -1,0 +1,392 @@
+[
+  {
+    "alpha": 3.0,
+    "n_vars": 50,
+    "n_clauses": 150,
+    "sat_probability": 1.0,
+    "mean_time_ms": 0.469,
+    "median_time_ms": 0.436,
+    "mean_decisions": 16.9,
+    "mean_conflicts": 1.6
+  },
+  {
+    "alpha": 3.25,
+    "n_vars": 50,
+    "n_clauses": 162,
+    "sat_probability": 1.0,
+    "mean_time_ms": 0.613,
+    "median_time_ms": 0.523,
+    "mean_decisions": 19.7,
+    "mean_conflicts": 4.0
+  },
+  {
+    "alpha": 3.5,
+    "n_vars": 50,
+    "n_clauses": 175,
+    "sat_probability": 1.0,
+    "mean_time_ms": 0.821,
+    "median_time_ms": 0.574,
+    "mean_decisions": 22.9,
+    "mean_conflicts": 7.6
+  },
+  {
+    "alpha": 3.75,
+    "n_vars": 50,
+    "n_clauses": 188,
+    "sat_probability": 0.9666666666666667,
+    "mean_time_ms": 1.066,
+    "median_time_ms": 0.786,
+    "mean_decisions": 23.9,
+    "mean_conflicts": 10.8
+  },
+  {
+    "alpha": 4.0,
+    "n_vars": 50,
+    "n_clauses": 200,
+    "sat_probability": 0.8333333333333334,
+    "mean_time_ms": 1.368,
+    "median_time_ms": 1.131,
+    "mean_decisions": 27.7,
+    "mean_conflicts": 17.5
+  },
+  {
+    "alpha": 4.25,
+    "n_vars": 50,
+    "n_clauses": 212,
+    "sat_probability": 0.5666666666666667,
+    "mean_time_ms": 2.094,
+    "median_time_ms": 1.993,
+    "mean_decisions": 40.1,
+    "mean_conflicts": 31.1
+  },
+  {
+    "alpha": 4.5,
+    "n_vars": 50,
+    "n_clauses": 225,
+    "sat_probability": 0.4,
+    "mean_time_ms": 2.273,
+    "median_time_ms": 2.283,
+    "mean_decisions": 42.8,
+    "mean_conflicts": 35.4
+  },
+  {
+    "alpha": 4.75,
+    "n_vars": 50,
+    "n_clauses": 238,
+    "sat_probability": 0.2,
+    "mean_time_ms": 2.383,
+    "median_time_ms": 2.27,
+    "mean_decisions": 39.6,
+    "mean_conflicts": 34.7
+  },
+  {
+    "alpha": 5.0,
+    "n_vars": 50,
+    "n_clauses": 250,
+    "sat_probability": 0.06666666666666667,
+    "mean_time_ms": 2.17,
+    "median_time_ms": 2.154,
+    "mean_decisions": 35.4,
+    "mean_conflicts": 31.3
+  },
+  {
+    "alpha": 5.25,
+    "n_vars": 50,
+    "n_clauses": 262,
+    "sat_probability": 0.0,
+    "mean_time_ms": 1.871,
+    "median_time_ms": 1.909,
+    "mean_decisions": 31.6,
+    "mean_conflicts": 28.8
+  },
+  {
+    "alpha": 5.5,
+    "n_vars": 50,
+    "n_clauses": 275,
+    "sat_probability": 0.0,
+    "mean_time_ms": 1.76,
+    "median_time_ms": 1.697,
+    "mean_decisions": 26.6,
+    "mean_conflicts": 24.8
+  },
+  {
+    "alpha": 5.75,
+    "n_vars": 50,
+    "n_clauses": 288,
+    "sat_probability": 0.0,
+    "mean_time_ms": 1.802,
+    "median_time_ms": 1.737,
+    "mean_decisions": 26.8,
+    "mean_conflicts": 25.4
+  },
+  {
+    "alpha": 6.0,
+    "n_vars": 50,
+    "n_clauses": 300,
+    "sat_probability": 0.0,
+    "mean_time_ms": 1.547,
+    "median_time_ms": 1.493,
+    "mean_decisions": 22,
+    "mean_conflicts": 20.9
+  },
+  {
+    "alpha": 3.0,
+    "n_vars": 100,
+    "n_clauses": 300,
+    "sat_probability": 1.0,
+    "mean_time_ms": 0.914,
+    "median_time_ms": 0.843,
+    "mean_decisions": 33.3,
+    "mean_conflicts": 2.8
+  },
+  {
+    "alpha": 3.25,
+    "n_vars": 100,
+    "n_clauses": 325,
+    "sat_probability": 1.0,
+    "mean_time_ms": 1.258,
+    "median_time_ms": 1.053,
+    "mean_decisions": 34.2,
+    "mean_conflicts": 5.7
+  },
+  {
+    "alpha": 3.5,
+    "n_vars": 100,
+    "n_clauses": 350,
+    "sat_probability": 1.0,
+    "mean_time_ms": 1.745,
+    "median_time_ms": 1.365,
+    "mean_decisions": 39.7,
+    "mean_conflicts": 11.4
+  },
+  {
+    "alpha": 3.75,
+    "n_vars": 100,
+    "n_clauses": 375,
+    "sat_probability": 1.0,
+    "mean_time_ms": 5.414,
+    "median_time_ms": 2.754,
+    "mean_decisions": 77.0,
+    "mean_conflicts": 45.8
+  },
+  {
+    "alpha": 4.0,
+    "n_vars": 100,
+    "n_clauses": 400,
+    "sat_probability": 0.9666666666666667,
+    "mean_time_ms": 15.037,
+    "median_time_ms": 6.213,
+    "mean_decisions": 188.4,
+    "mean_conflicts": 138.5
+  },
+  {
+    "alpha": 4.25,
+    "n_vars": 100,
+    "n_clauses": 425,
+    "sat_probability": 0.4666666666666667,
+    "mean_time_ms": 31.738,
+    "median_time_ms": 29.529,
+    "mean_decisions": 386.5,
+    "mean_conflicts": 318.2
+  },
+  {
+    "alpha": 4.5,
+    "n_vars": 100,
+    "n_clauses": 450,
+    "sat_probability": 0.2,
+    "mean_time_ms": 25.147,
+    "median_time_ms": 25.112,
+    "mean_decisions": 318.0,
+    "mean_conflicts": 264.0
+  },
+  {
+    "alpha": 4.75,
+    "n_vars": 100,
+    "n_clauses": 475,
+    "sat_probability": 0.06666666666666667,
+    "mean_time_ms": 28.169,
+    "median_time_ms": 28.41,
+    "mean_decisions": 330,
+    "mean_conflicts": 275.1
+  },
+  {
+    "alpha": 5.0,
+    "n_vars": 100,
+    "n_clauses": 500,
+    "sat_probability": 0.03333333333333333,
+    "mean_time_ms": 19.092,
+    "median_time_ms": 18.246,
+    "mean_decisions": 220.4,
+    "mean_conflicts": 186.1
+  },
+  {
+    "alpha": 5.25,
+    "n_vars": 100,
+    "n_clauses": 525,
+    "sat_probability": 0.0,
+    "mean_time_ms": 15.762,
+    "median_time_ms": 14.932,
+    "mean_decisions": 176.2,
+    "mean_conflicts": 152.0
+  },
+  {
+    "alpha": 5.5,
+    "n_vars": 100,
+    "n_clauses": 550,
+    "sat_probability": 0.0,
+    "mean_time_ms": 12.854,
+    "median_time_ms": 12.02,
+    "mean_decisions": 155.1,
+    "mean_conflicts": 134.6
+  },
+  {
+    "alpha": 5.75,
+    "n_vars": 100,
+    "n_clauses": 575,
+    "sat_probability": 0.0,
+    "mean_time_ms": 10.007,
+    "median_time_ms": 8.969,
+    "mean_decisions": 120.6,
+    "mean_conflicts": 105.2
+  },
+  {
+    "alpha": 6.0,
+    "n_vars": 100,
+    "n_clauses": 600,
+    "sat_probability": 0.0,
+    "mean_time_ms": 9.067,
+    "median_time_ms": 9.028,
+    "mean_decisions": 109.8,
+    "mean_conflicts": 94.6
+  },
+  {
+    "alpha": 3.0,
+    "n_vars": 150,
+    "n_clauses": 450,
+    "sat_probability": 1.0,
+    "mean_time_ms": 1.543,
+    "median_time_ms": 1.402,
+    "mean_decisions": 49.9,
+    "mean_conflicts": 3.1
+  },
+  {
+    "alpha": 3.25,
+    "n_vars": 150,
+    "n_clauses": 488,
+    "sat_probability": 1.0,
+    "mean_time_ms": 1.995,
+    "median_time_ms": 1.624,
+    "mean_decisions": 48.4,
+    "mean_conflicts": 7.5
+  },
+  {
+    "alpha": 3.5,
+    "n_vars": 150,
+    "n_clauses": 525,
+    "sat_probability": 1.0,
+    "mean_time_ms": 5.645,
+    "median_time_ms": 3.155,
+    "mean_decisions": 82.6,
+    "mean_conflicts": 38.3
+  },
+  {
+    "alpha": 3.75,
+    "n_vars": 150,
+    "n_clauses": 562,
+    "sat_probability": 1.0,
+    "mean_time_ms": 14.981,
+    "median_time_ms": 6.024,
+    "mean_decisions": 164,
+    "mean_conflicts": 106.3
+  },
+  {
+    "alpha": 4.0,
+    "n_vars": 150,
+    "n_clauses": 600,
+    "sat_probability": 1.0,
+    "mean_time_ms": 119.21,
+    "median_time_ms": 61.307,
+    "mean_decisions": 894.0,
+    "mean_conflicts": 700.4
+  },
+  {
+    "alpha": 4.25,
+    "n_vars": 150,
+    "n_clauses": 638,
+    "sat_probability": 0.6,
+    "mean_time_ms": 447.853,
+    "median_time_ms": 361.526,
+    "mean_decisions": 2879.6,
+    "mean_conflicts": 2353.3
+  },
+  {
+    "alpha": 4.5,
+    "n_vars": 150,
+    "n_clauses": 675,
+    "sat_probability": 0.1,
+    "mean_time_ms": 324.313,
+    "median_time_ms": 307.949,
+    "mean_decisions": 2259.5,
+    "mean_conflicts": 1867.2
+  },
+  {
+    "alpha": 4.75,
+    "n_vars": 150,
+    "n_clauses": 712,
+    "sat_probability": 0.03333333333333333,
+    "mean_time_ms": 208.269,
+    "median_time_ms": 197.08,
+    "mean_decisions": 1709.2,
+    "mean_conflicts": 1409.5
+  },
+  {
+    "alpha": 5.0,
+    "n_vars": 150,
+    "n_clauses": 750,
+    "sat_probability": 0.0,
+    "mean_time_ms": 145.087,
+    "median_time_ms": 129.741,
+    "mean_decisions": 1200.9,
+    "mean_conflicts": 990.6
+  },
+  {
+    "alpha": 5.25,
+    "n_vars": 150,
+    "n_clauses": 788,
+    "sat_probability": 0.0,
+    "mean_time_ms": 87.946,
+    "median_time_ms": 79.824,
+    "mean_decisions": 806.6,
+    "mean_conflicts": 670.4
+  },
+  {
+    "alpha": 5.5,
+    "n_vars": 150,
+    "n_clauses": 825,
+    "sat_probability": 0.0,
+    "mean_time_ms": 68.51,
+    "median_time_ms": 68.873,
+    "mean_decisions": 647.4,
+    "mean_conflicts": 541.8
+  },
+  {
+    "alpha": 5.75,
+    "n_vars": 150,
+    "n_clauses": 862,
+    "sat_probability": 0.0,
+    "mean_time_ms": 55.901,
+    "median_time_ms": 53.349,
+    "mean_decisions": 538.3,
+    "mean_conflicts": 447.2
+  },
+  {
+    "alpha": 6.0,
+    "n_vars": 150,
+    "n_clauses": 900,
+    "sat_probability": 0.0,
+    "mean_time_ms": 46.236,
+    "median_time_ms": 46.078,
+    "mean_decisions": 464.1,
+    "mean_conflicts": 388.1
+  }
+]
