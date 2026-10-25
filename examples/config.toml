@@ -1,0 +1,9 @@
+[solver]
+relax_steps = 200
+lr = 0.1
+coupling = 0.086   # prime-spaced coupling heuristic; 0 disables
+seed = 0
+use_lower_bound = true
+use_phase_hints = true
+timeout_s = 60.0
+certify = true     # record + check a DRUP proof for UNSAT answers
