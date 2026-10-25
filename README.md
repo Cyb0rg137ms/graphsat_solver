@@ -1,6 +1,6 @@
 # GraphSAT — verified hybrid SAT solving in Python
 
-[![CI](https://github.com/Cyb0rg137ms/graphsat_solver/actions/workflows/ci.yml/badge.svg)](https://github.com/Cyb0rg137ms/graphsat_solver/actions/workflows/ci.yml)
+> CI workflow lives in `ci/github-actions-ci.yml`; move it to `.github/workflows/ci.yml` to enable GitHub Actions (the push token lacked `workflow` scope).
 
 GraphSAT is a research-oriented SAT solver. It combines a complete **CDCL** core with an experimental **continuous relaxation** of the clause-violation energy. **Every answer is verified:**
 
